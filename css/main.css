@@ -28,11 +28,6 @@ html {
    * Customize the background color to match your design.
    */
 
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -406,7 +401,8 @@ header h2 {
 }
 
 .home-title {
-  display: flex justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -501,7 +497,6 @@ footer .social-icons li i {
 
 .sr-only {
   border: 0;
-  clip: rect(0, 0, 0, 0);
   height: 1px;
   margin: -1px;
   overflow: hidden;
@@ -520,7 +515,6 @@ footer .social-icons li i {
 
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
-  clip: auto;
   height: auto;
   margin: 0;
   overflow: visible;
@@ -985,7 +979,6 @@ footer .social-icons li i {
 
 
 @media print,
-(-webkit-min-device-pixel-ratio: 1.25),
 (min-resolution: 1.25dppx),
 (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
@@ -1006,8 +999,7 @@ footer .social-icons li i {
     color: #000 !important;
     /* Black prints faster */
     box-shadow: none !important;
-    text-shadow: none !important;
-    reverse-row
+    text-shadow: none !important; 
   }
 
   a,
