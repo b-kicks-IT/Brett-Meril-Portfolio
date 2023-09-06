@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  scroll-behavior: smooth;
 }
 
 /*
@@ -405,8 +406,7 @@ header h2 {
 }
 
 .home-title {
-  display: flex
-  justify-content: center;
+  display: flex justify-content: center;
 }
 
 
@@ -438,6 +438,11 @@ footer .contact-info {
   width: 60%;
 }
 
+footer .gmail-info {
+  width: 60%;
+  color: rgb(48, 97, 182);
+}
+
 footer h4 {
   width: 100%;
 }
@@ -467,9 +472,8 @@ footer .social-icons li {
 
 footer .social-icons li i {
   font-size: 1.875rem;
-  color: #453e4f;
+  color: rgb(48, 97, 182);
 }
-
 
 
 
