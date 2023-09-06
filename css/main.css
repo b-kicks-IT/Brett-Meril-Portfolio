@@ -326,6 +326,13 @@ header h2 {
   width: 100%
 }
 
+.home-title {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
 
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -999,7 +1006,7 @@ footer .social-icons li i {
     color: #000 !important;
     /* Black prints faster */
     box-shadow: none !important;
-    text-shadow: none !important; 
+    text-shadow: none !important;
   }
 
   a,
