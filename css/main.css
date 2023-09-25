@@ -183,6 +183,7 @@ header,
 #work,
 #skills,
 #about,
+#resume
 footer {
   display: flex;
   justify-content: center;
@@ -331,8 +332,6 @@ header h2 {
   flex-flow: row wrap;
   justify-content: center;
 }
-
-
 
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -948,7 +947,6 @@ footer .social-icons li i {
   .home-portfolio-piece {
     width: 28%;
   }
-
 
   /* skills */
   .skill,
