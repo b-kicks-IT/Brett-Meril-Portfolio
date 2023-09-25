@@ -183,8 +183,14 @@ header,
 #work,
 #skills,
 #about,
-#resume
 footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
+}
+
+#resume {
   display: flex;
   justify-content: center;
   text-align: center;
